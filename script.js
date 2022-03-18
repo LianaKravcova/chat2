@@ -22,4 +22,20 @@ async function ieladetChataZinas()
 
 }
 
-setInterval(ieladetChataZinas, 1000)
+//setInterval(ieladetChataZinas, 1000)
+
+async function ieladetChataZinasJson()
+{
+    let datiNoServera = await fetch(API + '/lasit');
+    let dati = await datiNoServera.json();
+    
+    i =0;
+    while ( i < await dati.length )
+    {
+       console.log(i); 
+       i=i+1;
+    }
+
+}
+
+
