@@ -1,4 +1,6 @@
 ///console.log(2)
+const API = "https://chat2022.lianasuhanova88.repl.co"
+
 let zina = document.querySelector('.manaZina');
 let zinas = document.querySelector('.chataZinas');
 
